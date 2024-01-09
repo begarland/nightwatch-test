@@ -1,0 +1,139 @@
+1704779297270	geckodriver	INFO	Listening on 127.0.0.1:4444
+1704779297301	webdriver::server	DEBUG	-> GET /status 
+1704779297301	webdriver::server	DEBUG	<- 200 OK {"value":{"message":"","ready":true}}
+1704779297318	webdriver::server	DEBUG	-> POST /session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"browserName":"firefox","acceptInsecureCerts":true,"moz:firefoxOptions":{"args":[],"binary":"/Applications/Firefox.app/Contents/MacOS/firefox"}}}}
+1704779297318	geckodriver::capabilities	DEBUG	Trying to read firefox version from ini files
+1704779297322	geckodriver::capabilities	DEBUG	Found version 88.0.1
+1704779297327	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tc/c8q0pmm14rbcbnsprpnw1pnh0000gn/T/rust_mozprofileV62D8x"
+1704779297328	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1
+1704779297328	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779297432	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779297535	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779297639	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779297742	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779297843	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779297944	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779298048	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779298151	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779298228	Marionette	INFO	Marionette enabled
+1704779298256	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779298360	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779298460	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779298563	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779298664	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779298768	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779298874	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779298978	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779299082	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779299183	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779299284	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779299384	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779299486	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779299590	geckodriver::marionette	TRACE	Retrying in 100ms
+2024-01-08 22:48:19.596 firefox[32113:2209224] Warning: Expected min height of view: (<NSButton: 0x13113d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2024-01-08 22:48:19.597 firefox[32113:2209224] Warning: Expected min height of view: (<NSButton: 0x13e25f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2024-01-08 22:48:19.597 firefox[32113:2209224] Warning: Expected min height of view: (<NSButton: 0x13e25f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2024-01-08 22:48:19.598 firefox[32113:2209224] Warning: Expected min height of view: (<NSButton: 0x13e260000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2024-01-08 22:48:19.598 firefox[32113:2209224] Warning: Expected min height of view: (<NSButton: 0x13e262000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2024-01-08 22:48:19.599 firefox[32113:2209224] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13e26b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2024-01-08 22:48:19.599 firefox[32113:2209224] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13e58b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1704779299692	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779299792	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779299897	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779300001	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779300105	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779300206	geckodriver::marionette	TRACE	Retrying in 100ms
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1704779300307	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779300410	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779300510	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779300613	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779300719	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779300819	geckodriver::marionette	TRACE	Retrying in 100ms
+1704779300898	Marionette	INFO	Listening on port 55720
+1704779300929	geckodriver::marionette	DEBUG	Connection to Marionette established on 127.0.0.1:55720.
+1704779300935	Marionette	WARN	TLS certificate errors will be ignored for this session
+1704779300945	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"ac9314d4-b496-4043-9350-2bf6e2cd96c1","capabilities":{"acceptInsecureCerts":true,"browserNam ... ctability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1704779300965	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/url {"url":"https://github.com"}
+JavaScript error: https://github.githubassets.com/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-618d6c-59676cf880fb.js, line 18: ReferenceError: PerformanceEventTiming is not defined
+1704779302169	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779302178	webdriver::server	DEBUG	-> GET /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/title 
+1704779302180	webdriver::server	DEBUG	<- 200 OK {"value":"GitHub: Let’s build from here · GitHub"}
+1704779302192	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/url {"url":"https://github.com/search"}
+JavaScript error: https://github.githubassets.com/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-618d6c-59676cf880fb.js, line 18: ReferenceError: PerformanceEventTiming is not defined
+1704779304802	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779304807	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":"[placeholder='Search GitHub']"}
+1704779304840	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"d27f2cf2-358f-6e49-8606-69e27dbaca48"}]}
+1704779304843	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/element/d27f2cf2-358f-6e49-8606-69e27dbaca48/clear {}
+1704779304851	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779304853	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":"[placeholder='Search GitHub']"}
+1704779304866	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"d27f2cf2-358f-6e49-8606-69e27dbaca48"}]}
+1704779304868	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/element/d27f2cf2-358f-6e49-8606-69e27dbaca48/clear {}
+1704779304869	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779304873	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/element/d27f2cf2-358f-6e49-8606-69e27dbaca48/value {"text":"nightwatch","value":["n","i","g","h","t","w","a","t","c","h"]}
+1704779304955	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779304959	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/actions {"actions":[{"actions":[{"type":"keyDown","value":"\ue007"},{"type":"keyUp","value":"\ue007"}],"type":"key","id":"default keyboard"}]}
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1704779305050	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779305053	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":".header-search-button"}
+1704779305110	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"686848ff-8e9c-a44e-8229-1e2093241db9"}]}
+1704779305114	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/execute/sync {"script":"/* isDisplayed */return (function(){return (fun ... ement-6066-11e4-a52e-4f735466cecf":"686848ff-8e9c-a44e-8229-1e2093241db9","ELEMENT":"686848ff-8e9c-a44e-8229-1e2093241db9"}]}
+1704779305124	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1704779305129	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":".header-search-button"}
+1704779305134	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"686848ff-8e9c-a44e-8229-1e2093241db9"}]}
+1704779305136	webdriver::server	DEBUG	-> GET /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/element/686848ff-8e9c-a44e-8229-1e2093241db9/text 
+1704779305164	webdriver::server	DEBUG	<- 200 OK {"value":"nightwatch"}
+1704779305166	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":"div[data-testid=\"results-list\"]:first-child"}
+1704779305181	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1704779305686	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":"div[data-testid=\"results-list\"]:first-child"}
+1704779305691	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"07c0b838-080f-6347-97a5-09b1678679e8"}]}
+1704779305694	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/execute/sync {"script":"/* isDisplayed */return (function(){return (fun ... ement-6066-11e4-a52e-4f735466cecf":"07c0b838-080f-6347-97a5-09b1678679e8","ELEMENT":"07c0b838-080f-6347-97a5-09b1678679e8"}]}
+1704779305704	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1704779305709	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":"div[data-testid=\"results-list\"]:first-child"}
+1704779305710	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"07c0b838-080f-6347-97a5-09b1678679e8"}]}
+1704779305712	webdriver::server	DEBUG	-> GET /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/element/07c0b838-080f-6347-97a5-09b1678679e8/text 
+1704779306360	webdriver::server	DEBUG	<- 200 OK {"value":"nightwatchjs/nightwatch\nIntegrated end-to-end testing framework written in Node.js and using W3C Webdriv ... ge Scale Automated Testing for Mocha, Nightwatch, Appium, Nodejs, etc\nJavaScript\n·\n287\n·\nUpdated on Jan 15, 2021\nStar"}
+1704779306369	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/url {"url":"https://github.com/login"}
+JavaScript error: https://github.githubassets.com/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-618d6c-59676cf880fb.js, line 18: ReferenceError: PerformanceEventTiming is not defined
+1704779306703	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779306705	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":"#login_field"}
+1704779306717	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"63dc0d17-8897-bf41-a28d-c3851d995849"}]}
+1704779306719	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/element/63dc0d17-8897-bf41-a28d-c3851d995849/clear {}
+1704779306721	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779306722	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":"#login_field"}
+1704779306723	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"63dc0d17-8897-bf41-a28d-c3851d995849"}]}
+1704779306724	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/element/63dc0d17-8897-bf41-a28d-c3851d995849/clear {}
+1704779306726	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779306727	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/element/63dc0d17-8897-bf41-a28d-c3851d995849/value {"text":"nightwatch","value":["n","i","g","h","t","w","a","t","c","h"]}
+1704779306733	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779306734	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":"#password"}
+1704779306736	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"83662514-76bd-644a-91d7-f13bd3ba65a4"}]}
+1704779306737	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/element/83662514-76bd-644a-91d7-f13bd3ba65a4/clear {}
+1704779306738	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779306740	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":"#password"}
+1704779306741	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"83662514-76bd-644a-91d7-f13bd3ba65a4"}]}
+1704779306742	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/element/83662514-76bd-644a-91d7-f13bd3ba65a4/clear {}
+1704779306744	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779306745	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/element/83662514-76bd-644a-91d7-f13bd3ba65a4/value {"text":"testpassword","value":["t","e","s","t","p","a","s","s","w","o","r","d"]}
+1704779306758	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779306759	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":"[value='Sign in']"}
+1704779306761	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"9c24d8c3-cc5c-d94a-bc56-517e1953c7dc"}]}
+1704779306764	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/execute/sync {"script":"/* isDisplayed */return (function(){return (fun ... ement-6066-11e4-a52e-4f735466cecf":"9c24d8c3-cc5c-d94a-bc56-517e1953c7dc","ELEMENT":"9c24d8c3-cc5c-d94a-bc56-517e1953c7dc"}]}
+1704779306772	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1704779306774	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":"[value='Sign in']"}
+1704779306775	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"9c24d8c3-cc5c-d94a-bc56-517e1953c7dc"}]}
+1704779306777	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/element/9c24d8c3-cc5c-d94a-bc56-517e1953c7dc/click {}
+JavaScript error: https://github.githubassets.com/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-618d6c-59676cf880fb.js, line 18: ReferenceError: PerformanceEventTiming is not defined
+1704779307242	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704779307245	webdriver::server	DEBUG	-> POST /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/elements {"using":"css selector","value":"#js-flash-container .flash.flash-error"}
+1704779307258	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"77546029-45a2-ad45-a51e-27062fcb1c73"}]}
+1704779307259	webdriver::server	DEBUG	-> GET /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1/element/77546029-45a2-ad45-a51e-27062fcb1c73/text 
+1704779307287	webdriver::server	DEBUG	<- 200 OK {"value":"Incorrect username or password."}
+1704779307293	webdriver::server	DEBUG	-> DELETE /session/ac9314d4-b496-4043-9350-2bf6e2cd96c1 
+1704779307294	Marionette	INFO	Stopped listening on port 55720
+1704779307369	webdriver::server	DEBUG	Teardown session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1704779308098	geckodriver::browser	DEBUG	Browser process stopped: exit status: 0
+1704779308142	webdriver::server	DEBUG	<- 200 OK {"value":null}

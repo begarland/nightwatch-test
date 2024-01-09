@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="nightwatch.github"
+    errors="1" failures="0" hostname="" id="" package="github" skipped="3"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+       SessionNotCreatedError
+   An error occurred while creating a new SafariDriver session: [SessionNotCreatedError] Could not create a session: Some devices were found, but could not be used:
+
+
+    Try fixing by :
+    1. Make sure you have passed correct deviceId in the command (for e.g : --deviceId 00008030-00024C2C3453402E)
+    2. Or pass safari:deviceUDID capability in config
+    3. To verify the deviceId run, system_profiler SPUSBDataType | sed -n &#39;/iPhone/,/Serial/p&#39; | grep &#39;Serial Number:&#39; | awk -F &#39;: &#39; &#39;{print $2}
+    4. For more help, run: npx run @nightwatch/mobile-helper ios
+
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new SafariDriver session: [SessionNotCreatedError] Could not create a session: Some devices were found, but could not be used:
+"><![CDATA[
+      false
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Github Title test" classname="nightwatch.github">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Github search for nightwatch repository" classname="nightwatch.github">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Github login with fake credentials" classname="nightwatch.github">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

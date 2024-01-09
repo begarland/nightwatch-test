@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="nightwatch.newTest"
+    errors="0" failures="0" hostname="" id="" package="newTest" skipped="0"
+    tests="2" time="13.20" timestamp="">
+  
+    <testcase name="test url" classname="nightwatch.newTest" time="1.253" assertions="0">
+    </testcase>
+  
+    <testcase name="change title" classname="nightwatch.newTest" time="5.346" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

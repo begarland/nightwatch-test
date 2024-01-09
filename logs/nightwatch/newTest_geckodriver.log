@@ -1,0 +1,68 @@
+1704782167789	geckodriver	INFO	Listening on 127.0.0.1:4444
+1704782167804	webdriver::server	DEBUG	-> GET /status 
+1704782167805	webdriver::server	DEBUG	<- 200 OK {"value":{"message":"","ready":true}}
+1704782167822	webdriver::server	DEBUG	-> POST /session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"browserName":"firefox","acceptInsecureCerts":true,"moz:firefoxOptions":{"args":[],"binary":"/Applications/Firefox.app/Contents/MacOS/firefox"}}}}
+1704782167823	geckodriver::capabilities	DEBUG	Trying to read firefox version from ini files
+1704782167830	geckodriver::capabilities	DEBUG	Found version 88.0.1
+1704782167837	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tc/c8q0pmm14rbcbnsprpnw1pnh0000gn/T/rust_mozprofileL5ZUBc"
+1704782167837	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1
+1704782167837	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782167937	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782168039	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782168140	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782168244	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782168346	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782168449	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782168536	Marionette	INFO	Marionette enabled
+1704782168564	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782168665	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782168770	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782168872	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782168976	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782169079	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782169182	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782169286	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782169389	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782169492	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782169596	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782169698	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782169802	geckodriver::marionette	TRACE	Retrying in 100ms
+2024-01-08 23:36:09.881 firefox[39654:2277958] Warning: Expected min height of view: (<NSButton: 0x13ad68800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2024-01-08 23:36:09.882 firefox[39654:2277958] Warning: Expected min height of view: (<NSButton: 0x13ad6d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2024-01-08 23:36:09.882 firefox[39654:2277958] Warning: Expected min height of view: (<NSButton: 0x13ad6e800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2024-01-08 23:36:09.883 firefox[39654:2277958] Warning: Expected min height of view: (<NSButton: 0x13ad68400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2024-01-08 23:36:09.883 firefox[39654:2277958] Warning: Expected min height of view: (<NSButton: 0x13ad6a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2024-01-08 23:36:09.884 firefox[39654:2277958] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13ad76800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2024-01-08 23:36:09.885 firefox[39654:2277958] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13b081c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1704782169907	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782170012	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782170115	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782170219	geckodriver::marionette	TRACE	Retrying in 100ms
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1704782170324	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782170424	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782170529	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782170633	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782170736	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782170839	geckodriver::marionette	TRACE	Retrying in 100ms
+1704782170891	Marionette	INFO	Listening on port 64633
+1704782170952	geckodriver::marionette	DEBUG	Connection to Marionette established on 127.0.0.1:64633.
+1704782170957	Marionette	WARN	TLS certificate errors will be ignored for this session
+1704782170967	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"3fdca07c-de5d-fa47-9895-7f5ecccc07de","capabilities":{"acceptInsecureCerts":true,"browserNam ... ctability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1704782170983	webdriver::server	DEBUG	-> POST /session/3fdca07c-de5d-fa47-9895-7f5ecccc07de/window/rect {"width":390,"height":844}
+1704782171004	webdriver::server	DEBUG	<- 200 OK {"value":{"x":4,"y":25,"width":450,"height":844}}
+1704782171007	webdriver::server	DEBUG	-> POST /session/3fdca07c-de5d-fa47-9895-7f5ecccc07de/url {"url":"http://www.google.com"}
+1704782172046	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704782172072	webdriver::server	DEBUG	-> POST /session/3fdca07c-de5d-fa47-9895-7f5ecccc07de/execute/sync {"script":"var passedArgs = Array.prototype.slice.call(arg ... cells-evaluate\"},{id:\"hidden-content\",evaluate:\"hidden-content-evaluate\"}]})}(\"object\"==typeof window?window:this);"]}
+1704782172180	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1704782172184	webdriver::server	DEBUG	-> POST /session/3fdca07c-de5d-fa47-9895-7f5ecccc07de/execute/async {"script":"var passedArgs = Array.prototype.slice.call(ar ... (err) {\r\n      done(err);\r\n    }\r\n\r\n    done(results);\r\n  });\r\n}).apply(window, passedArgs);","args":["body",{}]}
+1704782172783	webdriver::server	DEBUG	<- 200 OK {"value":{"inapplicable":[{"description":"Ensures every accesskey attribute value is unique","help":"accesskey attr ... idth=\"272\" height=\"92\">","impact":"moderate","none":[],"target":[".lnXdpd"]}],"tags":["cat.keyboard","best-practice"]}]}}
+1704782172838	webdriver::server	DEBUG	-> DELETE /session/3fdca07c-de5d-fa47-9895-7f5ecccc07de 
+1704782172838	Marionette	INFO	Stopped listening on port 64633
+1704782172891	webdriver::server	DEBUG	Teardown session
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 446: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1704782173299	geckodriver::browser	DEBUG	Browser process stopped: exit status: 0
+1704782173319	webdriver::server	DEBUG	<- 200 OK {"value":null}

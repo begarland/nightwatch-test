@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="nightwatch.github"
+    errors="0" failures="1" hostname="" id="" package="github" skipped="1"
+    tests="2" time="19.08" timestamp="">
+  
+    <testcase name="Github Title test" classname="nightwatch.github" time="2.305" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Github search for nightwatch repository" classname="nightwatch.github" time="7.232" assertions="1">  <failure message="Timed out while waiting for element &lt;.header-search-button&gt; to be visible for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not visible&#34; (5142ms)">    at Object.Github search for nightwatch repository (/Users/brandygarland/Documents/GitHub/nightwatch-test/nightwatch/github.ts:20:8)</failure>
+<system-out>[[ATTACHMENT|/Users/brandygarland/Documents/GitHub/nightwatch-test/screens/nightwatch/github/Github-search-for-nightwatch-repository_FAILED_Jan-08-2024-222722-GMT-0700.png]]</system-out>
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+    
+    <testcase
+      name="Github login with fake credentials" classname="nightwatch.github">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
